@@ -18,8 +18,8 @@ router.get('/login', function (req, res) {
  router.post('/well',function(req,res){
      res.render('well',{
          title:"Well Come in Page ",
-         tit1:"Yor UserName is  : ",
-         tit2:"Yor Password is : ",
+         tit1:"Your UserName is  : ",
+         tit2:"Your Password is : ",
          username:req.body.username,
          password:req.body.pass
 
